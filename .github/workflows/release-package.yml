@@ -30,4 +30,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
