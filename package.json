@@ -1,5 +1,5 @@
 {
-  "name": "careplus-helper",
+  "name": "carepluscli",
   "version": "1.0.1",
   "description": "This is careplus repo",
   "main": "index.js",
