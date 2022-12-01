@@ -1,7 +1,6 @@
 import moment from 'moment';
 import React, { useEffect, useRef, useState } from 'react';
 import { ImageBackground, Pressable, StyleSheet, View } from 'react-native';
-import Modal from 'react-native-modal';
 import { Caption, Body2, Body1 } from '../../../components';
 import { colorStyles, containersStyle } from '../../../style';
 

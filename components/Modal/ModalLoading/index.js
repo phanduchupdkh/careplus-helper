@@ -1,14 +1,14 @@
-import React from 'react';
-import { StyleSheet, View, ActivityIndicator } from 'react-native';
-import Modal from 'react-native-modal';
-import { colorStyles } from '../../../style';
+import React from "react";
+import { StyleSheet, View, ActivityIndicator, Modal } from "react-native";
+import Modal from "react-native-modal";
+import { colorStyles } from "../../../style";
 export const ModalLoading = ({ loading = false }) => {
   return (
     <Modal
       isVisible={loading}
       style={{
-        alignItems: 'center',
-        justifyContent: 'center',
+        alignItems: "center",
+        justifyContent: "center",
       }}
     >
       <View style={styles.modalContentContainer}>
